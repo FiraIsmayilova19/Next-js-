@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chart.js": "^4.5.0",
+    "create-next-app": "^15.3.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

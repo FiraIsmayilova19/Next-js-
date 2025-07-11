@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("middleware",{
+
+/***/ "(middleware)/./middleware.js":
+/*!***********************!*\
+  !*** ./middleware.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   middleware: () => (/* binding */ middleware)\n/* harmony export */ });\n/* harmony import */ var next_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/server */ \"(middleware)/./node_modules/next/dist/esm/api/server.js\");\n\nfunction middleware(request) {\n    // const token = request.cookies.get('token')?.value;\n    // const { pathname } = request.nextUrl;\n    // // İcazə verilmiş açıq səhifələr (login, register, api/auth)\n    // const publicPaths = ['/auth/login', '/auth/register', '/api/auth'];\n    // const isPublic = publicPaths.some((path) => pathname.startsWith(path));\n    // if (isPublic) {\n    //   return NextResponse.next();\n    // }\n    // // Token yoxdursa və qorunan səhifəyə giriş cəhd edilirsə, yönləndir\n    // if (!token && pathname.startsWith('/dashboard')) {\n    //   const url = request.nextUrl.clone();\n    //   url.pathname = '/login';\n    //   return NextResponse.redirect(url);\n    // }\n    return next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.next();\n} // export const config = {\n //   matcher: [\n //     '/dashboard/:path*',\n //     '/api/expenses/:path*',\n //     '/auth/login',\n //     '/auth/register',\n //   ],\n // };\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKG1pZGRsZXdhcmUpLy4vbWlkZGxld2FyZS5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUEyQztBQUVwQyxTQUFTQyxXQUFXQyxPQUFPO0lBQ2hDLHFEQUFxRDtJQUNyRCx3Q0FBd0M7SUFFeEMsK0RBQStEO0lBQy9ELHNFQUFzRTtJQUV0RSwwRUFBMEU7SUFFMUUsa0JBQWtCO0lBQ2xCLGdDQUFnQztJQUNoQyxJQUFJO0lBRUosdUVBQXVFO0lBQ3ZFLHFEQUFxRDtJQUNyRCx5Q0FBeUM7SUFDekMsNkJBQTZCO0lBQzdCLHVDQUF1QztJQUN2QyxJQUFJO0lBRUosT0FBT0YscURBQVlBLENBQUNHLElBQUk7QUFDMUIsRUFFQSwwQkFBMEI7Q0FDMUIsZUFBZTtDQUNmLDJCQUEyQjtDQUMzQiw4QkFBOEI7Q0FDOUIscUJBQXFCO0NBQ3JCLHdCQUF3QjtDQUN4QixPQUFPO0NBQ1AsS0FBSyIsInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFxuZXh0anNGaW5hbFByb2plY3RcXG15LWFwcFxcbWlkZGxld2FyZS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZXh0UmVzcG9uc2UgfSBmcm9tICduZXh0L3NlcnZlcic7XHJcblxyXG5leHBvcnQgZnVuY3Rpb24gbWlkZGxld2FyZShyZXF1ZXN0KSB7XHJcbiAgLy8gY29uc3QgdG9rZW4gPSByZXF1ZXN0LmNvb2tpZXMuZ2V0KCd0b2tlbicpPy52YWx1ZTtcclxuICAvLyBjb25zdCB7IHBhdGhuYW1lIH0gPSByZXF1ZXN0Lm5leHRVcmw7XHJcblxyXG4gIC8vIC8vIMSwY2F6yZkgdmVyaWxtacWfIGHDp8SxcSBzyZloaWbJmWzJmXIgKGxvZ2luLCByZWdpc3RlciwgYXBpL2F1dGgpXHJcbiAgLy8gY29uc3QgcHVibGljUGF0aHMgPSBbJy9hdXRoL2xvZ2luJywgJy9hdXRoL3JlZ2lzdGVyJywgJy9hcGkvYXV0aCddO1xyXG5cclxuICAvLyBjb25zdCBpc1B1YmxpYyA9IHB1YmxpY1BhdGhzLnNvbWUoKHBhdGgpID0+IHBhdGhuYW1lLnN0YXJ0c1dpdGgocGF0aCkpO1xyXG5cclxuICAvLyBpZiAoaXNQdWJsaWMpIHtcclxuICAvLyAgIHJldHVybiBOZXh0UmVzcG9uc2UubmV4dCgpO1xyXG4gIC8vIH1cclxuXHJcbiAgLy8gLy8gVG9rZW4geW94ZHVyc2EgdsmZIHFvcnVuYW4gc8mZaGlmyZl5yZkgZ2lyacWfIGPJmWhkIGVkaWxpcnPJmSwgecO2bmzJmW5kaXJcclxuICAvLyBpZiAoIXRva2VuICYmIHBhdGhuYW1lLnN0YXJ0c1dpdGgoJy9kYXNoYm9hcmQnKSkge1xyXG4gIC8vICAgY29uc3QgdXJsID0gcmVxdWVzdC5uZXh0VXJsLmNsb25lKCk7XHJcbiAgLy8gICB1cmwucGF0aG5hbWUgPSAnL2xvZ2luJztcclxuICAvLyAgIHJldHVybiBOZXh0UmVzcG9uc2UucmVkaXJlY3QodXJsKTtcclxuICAvLyB9XHJcblxyXG4gIHJldHVybiBOZXh0UmVzcG9uc2UubmV4dCgpO1xyXG59XHJcblxyXG4vLyBleHBvcnQgY29uc3QgY29uZmlnID0ge1xyXG4vLyAgIG1hdGNoZXI6IFtcclxuLy8gICAgICcvZGFzaGJvYXJkLzpwYXRoKicsXHJcbi8vICAgICAnL2FwaS9leHBlbnNlcy86cGF0aConLFxyXG4vLyAgICAgJy9hdXRoL2xvZ2luJyxcclxuLy8gICAgICcvYXV0aC9yZWdpc3RlcicsXHJcbi8vICAgXSxcclxuLy8gfTtcclxuIl0sIm5hbWVzIjpbIk5leHRSZXNwb25zZSIsIm1pZGRsZXdhcmUiLCJyZXF1ZXN0IiwibmV4dCJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(middleware)/./middleware.js\n");
+
+/***/ })
+
+});
